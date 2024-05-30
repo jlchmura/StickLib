@@ -199,7 +199,7 @@ monitor_grapevine(mixed *data) {
 		, data[1]
 	      )
 	    );
-	      sprintf("Program exited with status %d.\n", data[1]));
+	      sprintf("Program exited with status %d.\n", data[1]);
 	    break;
 	case ERQ_SIGNALED:
 	    log_file("GRAPEVINE"
